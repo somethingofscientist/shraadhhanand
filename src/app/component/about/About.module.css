@@ -1,0 +1,243 @@
+.heading {
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    padding: 48px 0;
+    color: var(--grey);
+}
+
+.first_letter_blue {
+    color: var(--blue);
+}
+
+.container {
+    padding: 0px 80px 48px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card2,
+.card {
+    width: 400px;
+    height: fit-content;
+    margin-right: 50px;
+    border-radius: 12px;
+    padding: 18px 20px;
+    border: 1px solid rgb(223, 223, 223);
+    box-shadow: 0 2px 12px rgb(239, 239, 239);
+}
+
+.card2 {
+    margin-left: 50px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark);
+}
+
+.company_logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.company_name {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--dark);
+}
+
+.company_link {
+    width: 100%;
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: right;
+    color: var(--light_blut);
+}
+
+.role_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.my_role {
+    font-size: 12px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.role {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.company_description {
+    font-size: 12px;
+    text-align: justify;
+    color: var(--dark);
+}
+
+.middle {
+    width: 0.1%;
+    height: 50vh;
+    background-color: var(--blue);
+}
+
+.point3,
+.point2,
+.point1 {
+    width: 20px;
+    height: 20px;
+    border: 5px solid var(--blue);
+    border-radius: 50%;
+    margin-left: -9px;
+    background-color: #ffffff;
+}
+
+.point2 {
+    margin-top: 250px;
+}
+
+.point3 {
+    margin-top: 200px;
+}
+
+#card_3,
+#card_2 {
+    margin-top: 150px;
+}
+
+.skill_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 48px 80px 48px;
+    font-weight: 600;
+}
+
+.skills_left {
+    width: 40%;
+    margin: 0 20px;
+}
+
+.skills_heading {
+    font-size: 28px;
+    padding: 10px 0;
+    background-color:rgb(223, 223, 223);
+    color: var(--light_blue);
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.skills_links {
+    height: fit-content;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    padding: 20px 0 10px 0;
+    justify-content: center;
+    text-align: center;
+    color: var(--grey);
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.skill_icons {
+    width: 100px;
+}
+
+.skill_names {
+    width: max-content;
+    text-align: left;
+}
+
+.time_container {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+    .container {
+        padding: 48px 12px;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    #card_3,
+    #card_1,
+    #card_2 {
+        margin-top: 0;
+    }
+
+    .right,
+    .left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card2,
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .skill_container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .skills_left {
+        width: 49%;
+        margin: 0 auto;
+    }
+
+    .skills_heading {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .skills_links {
+        height: fit-content;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .skill_icons {
+        width: 50px;
+        font-size: 16px;
+    }
+
+    .skill_names {
+        width: max-content;
+        text-align: left;
+        font-size: 16px;
+    }
+
+}

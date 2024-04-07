@@ -1,0 +1,148 @@
+.container {
+    padding: 48px 80px 48px 80px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 54px;
+    padding: 48px 0;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.first_letter_blue {
+    color: var(--blue);
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 32%;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(243, 243, 243);
+    transition: 500ms ease-in-out;
+    padding-bottom: 20px;
+}
+
+.desc {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card_heading {
+    font-size: 20px;
+    color: var(--light_blue);
+    padding: 20px 0;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+
+.card_image {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid var(--blue); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card_image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card_desc {
+    text-align: justify;
+    padding: 0;
+    color: var(--light_grey);
+}
+
+.card_link {
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github_code,
+.deloyed_link {
+    font-size: 12px;
+    width: 100px;
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
+    text-transform: uppercase;
+}
+
+.github_code:hover,
+.deloyed_link:hover {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    background-color: white;
+}
+
+.mirror,
+.paralle {
+    width: 100%;
+    height: 50vh;
+}
+
+.mirror {
+    transform: scaleX(-1);
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+    .container {
+        padding: 48px 12px;
+        height: fit-content;
+    }
+
+    .card {
+        width: 100%;
+        margin: 20px 0;
+        padding: 18px 10px;
+    }
+
+    .github_code,
+    .deloyed_link {
+        font-size: 12px;
+        color: white;
+        width: 100px;
+        padding: 12px 10px;
+
+        background-color: var(--dark);
+        border: 1px solid var(--dark);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paralle,
+    .mirror {
+        width: 100%;
+        height: 20vh;
+    }
+
+}
