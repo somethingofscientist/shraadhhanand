@@ -82,7 +82,7 @@ export default function Contact() {
                 </Fade>
                 <div className={styles.main_container}>
                     <form onSubmit={handleSubmit}>
-                        <Slide>
+                        <Slide direction='up'>
                             <input
                                 type="text"
                                 required
@@ -93,7 +93,7 @@ export default function Contact() {
                                 placeholder='Enter Name *' />
                             {/* <div className={styles.error}>Name is required</div> */}
                         </Slide>
-                        <Slide>
+                        <Slide direction='up'>
                             <input
                                 type="email"
                                 required
@@ -104,7 +104,7 @@ export default function Contact() {
                                 placeholder='Enter Email *' />
                             {/* <div className={styles.error}>Email is required</div> */}
                         </Slide>
-                        <Slide>
+                        <Slide direction='up'>
                             <input
                                 type="text"
                                 name='message'
@@ -113,7 +113,7 @@ export default function Contact() {
                                 className={styles.input_field}
                                 placeholder='Any Message For Me' />
                         </Slide>
-                        <Slide direction='up'>
+                        <Slide direction='right'>
                             <button
                                 type='submit'
                                 className={styles.submit_button}>
