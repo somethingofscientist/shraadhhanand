@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../../../App.module.css';
 import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function Whatsapp() {
@@ -10,9 +9,7 @@ export default function Whatsapp() {
 
     return (
         <a href={whatsappUrl} target='_blank' rel='noopener noreferrer'>
-            <div className={styles.fixed}>
-                <IoLogoWhatsapp />
-            </div>
+            <IoLogoWhatsapp />
         </a>
     );
 }

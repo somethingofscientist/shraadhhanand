@@ -15,11 +15,8 @@ export default function Hero() {
         "Just as gods shape worlds, developers shape digital landscapes.",
     ];
     const TEXTS2 = [
-        "ReactJS  Developer",
         "Full Stack Developer",
-        "MERN Stack Developer",
-        "FrontEnd Developer",
-        "BackEnd  Developer",
+        "Full Stack Developer",
     ];
 
     const [index, setIndex] = useState(0);

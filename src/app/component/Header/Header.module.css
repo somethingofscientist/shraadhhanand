@@ -36,6 +36,7 @@
     transition: 200ms ease-in-out;
     position: relative !important;
     color: var(--light_grey);
+    text-transform: uppercase;
 }
 
 .link:hover {

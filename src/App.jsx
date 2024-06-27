@@ -6,11 +6,13 @@ import Whatsapp from './app/component/Whatsapp/Whatsapp';
 import PageNotFound from './app/pages/PageNotFound/PageNotFound';
 import Home from './app/pages/home/HomePage';
 import Header from './app/component/Header/Header';
+import styles from './App.module.css';
 
 function App() {
 
   return (
     <>
+
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -18,7 +20,10 @@ function App() {
       </Routes>
       <Footer />
       <ToastContainer />
-      <Whatsapp />
+
+      <div className={styles.whatsapp}>
+        <Whatsapp />
+      </div>
     </>
   )
 }
