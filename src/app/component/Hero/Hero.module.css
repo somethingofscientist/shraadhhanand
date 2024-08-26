@@ -81,8 +81,8 @@
 /* MOBILE */
 @media(max-width: 768px) {
     .container {
-        padding: 48px 12px;
-        height: 100vh;
+        padding: 48px 12px 0 12px;
+        height: fit-content;
     }
 
     .tagline0 {
@@ -93,15 +93,21 @@
 
     .tagline1 {
         margin: 50px 0;
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 900;
         white-space: wrap;
     }
 
     .tagline2 {
-        font-weight: 800;
+        font-weight: 500;
+        font-size: 14px;
         margin: 0;
-        font-size: 20px;
-        /* line-height: 28px; */
+    }
+
+    .cta {
+        margin: 50px 0 0 0;
+        font-size: 14px;
+        padding: 5px 40px;
+        font-weight: 500;
     }
 }

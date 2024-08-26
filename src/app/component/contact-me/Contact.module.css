@@ -108,4 +108,9 @@
         padding: 48px 12px;
         height: fit-content;
     }
+
+    .heading {
+        font-size: 32px;
+        padding: 48px 0 0 0;
+    }
 }

@@ -34,7 +34,7 @@
 .desc {
     display: flex;
     /* align-items: space-between; */
-    justify-content: space-between  ;
+    justify-content: space-between;
     flex-direction: column;
     padding: 0 10px;
 }
@@ -70,7 +70,7 @@
 .card_desc {
     text-align: justify;
     padding: 0;
-    height: 250px;
+    height: fit-content;
     color: var(--light_grey);
 }
 
@@ -149,5 +149,11 @@
 
     .desc {
         padding: 0 2px;
+        font-size: 12px;
+    }
+
+    .heading {
+        font-size: 32px;
+        padding: 48px 0 0 0;
     }
 }
