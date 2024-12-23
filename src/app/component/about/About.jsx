@@ -46,7 +46,7 @@ export default function About() {
                                 </div>
 
                                 <div className={styles.company_link}>
-                                    <Link href='https://applore.in/' target='_blank'>
+                                    <Link to='https://applore.in/' target='_blank'>
                                         Applore.in
                                     </Link>
                                 </div>
@@ -119,7 +119,7 @@ export default function About() {
                         </div>
 
                         <div className={styles.company_link}>
-                            <Link href='https://digitalpanther.in' target='_blank'>
+                            <Link to='https://digitalpanther.in' target='_blank'>
                                 DigitalPanther.in
                             </Link>
                         </div>

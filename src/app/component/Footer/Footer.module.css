@@ -3,8 +3,6 @@
     padding: 48px 80px;
     display: flex;
     position: relative;
-    background-color: #fcfcfc;
-    border-top: 1px solid whitesmoke;
 }
 
 .left {
@@ -15,7 +13,7 @@
 .right {
     width: 100%;
     text-align: center;
-    color: var(--dark);
+    color: var(--grey);
 }
 
 .links,
@@ -37,7 +35,7 @@
 .link_icons {
     font-size: 40px;
     padding: 20px;
-    color: var(--dark);
+    color: var(--grey);
 }
 
 .tagline {

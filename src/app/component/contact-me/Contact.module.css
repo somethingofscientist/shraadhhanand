@@ -62,7 +62,6 @@
     transition: 100ms ease-in-out;
     border: 1px solid var(--light_blue);
     color: var(--blue);
-    background-color: white;
 }
 
 .submit_button:hover {

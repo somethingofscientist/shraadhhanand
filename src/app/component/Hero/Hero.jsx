@@ -59,7 +59,7 @@ export default function Hero() {
                     </div>
                 </a>
             </div>
-            <div className={styles.circle_1}></div>
+          
         </div>
     )
 }

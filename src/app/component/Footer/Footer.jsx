@@ -7,12 +7,10 @@ import { TfiLinkedin } from "react-icons/tfi";
 import { SiGmail } from "react-icons/si";
 
 
-
 export default function Footer() {
     const phone = '+918920892992';
     const text = 'Hi, Shraadhhanand just saw your Resume, Portfolio. Can we have a quick chat ?';
     const whatsappUrl = `https://wa.me/${encodeURIComponent(phone)}?text=${encodeURIComponent(text)}`;
-
 
     return (
         <>
