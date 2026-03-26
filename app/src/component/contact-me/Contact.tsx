@@ -14,14 +14,14 @@ export default function Contact() {
         message: "",
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e:any) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
         });
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e:any) => {
         e.preventDefault();
         try {
             const response = await axios.post(`${VITE_BACKEND_URL}/send-mail`, formData);
@@ -34,7 +34,7 @@ export default function Contact() {
                     closeOnClick: true,
                     pauseOnHover: true,
                     draggable: true,
-                    progress: false,
+                    // progress: false,
                     theme: "light"
                 });
                 // setFormData({
@@ -50,7 +50,7 @@ export default function Contact() {
                     closeOnClick: true,
                     pauseOnHover: true,
                     draggable: true,
-                    progress: false,
+                    // progress: false,
                     theme: "light"
                 });
             }
@@ -63,7 +63,7 @@ export default function Contact() {
                 closeOnClick: true,
                 pauseOnHover: true,
                 draggable: true,
-                progress: false,
+                // progress: false,
                 theme: "light"
             });
         }

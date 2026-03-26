@@ -8,7 +8,7 @@ export default function Header() {
     const [activeLink, setActiveLink] = useState('#home');
 
     // Function to handle click on a link
-    const handleLinkClick = (href) => {
+    const handleLinkClick = (href:string) => {
         setActiveLink(href);
     };
 
